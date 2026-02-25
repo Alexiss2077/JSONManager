@@ -1,0 +1,9 @@
+{
+  "catalogo": [
+    { "id": "P001", "nombre": "Laptop Pro 15", "categoria": "Electrónica", "precio": 18500.00, "stock": 25, "activo": true },
+    { "id": "P002", "nombre": "Mouse Inalámbrico", "categoria": "Accesorios", "precio": 450.00, "stock": 150, "activo": true },
+    { "id": "P003", "nombre": "Teclado Mecánico", "categoria": "Accesorios", "precio": 1200.00, "stock": 80, "activo": true },
+    { "id": "P004", "nombre": "Monitor 27 pulgadas", "categoria": "Monitores", "precio": 6800.00, "stock": 40, "activo": false }
+  ],
+  "meta": { "total": 4, "activos": 3, "actualizado": "2025-06-15" }
+}

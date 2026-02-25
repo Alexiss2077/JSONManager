@@ -1,0 +1,21 @@
+{
+  "app": {
+    "nombre": "SistemaVentas",
+    "version": "3.5.2",
+    "debug": false,
+    "logNivel": "info"
+  },
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "name": "ventas_db",
+    "ssl": true,
+    "poolSize": 10
+  },
+  "correo": {
+    "smtp": "mail.empresa.com",
+    "port": 587,
+    "usuario": "no-reply@empresa.com"
+  },
+  "features": ["reportes", "exportar", "notificaciones"]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "E001",
+    "nombre": "Ana García",
+    "departamento": "Desarrollo",
+    "puesto": "Desarrolladora Senior",
+    "salario": 35000,
+    "activo": true,
+    "habilidades": ["C#", "Python", "SQL"],
+    "contacto": { "email": "ana.garcia@empresa.com", "ext": "301" }
+  },
+  {
+    "id": "E002",
+    "nombre": "Luis Martínez",
+    "departamento": "Desarrollo",
+    "puesto": "Arquitecto de Software",
+    "salario": 45000,
+    "activo": true,
+    "habilidades": ["Java", "Kubernetes", "AWS"],
+    "contacto": { "email": "luis.martinez@empresa.com", "ext": "302" }
+  },
+  {
+    "id": "E003",
+    "nombre": "María López",
+    "departamento": "Ventas",
+    "puesto": "Gerente de Ventas",
+    "salario": 38000,
+    "activo": true,
+    "habilidades": ["CRM", "Excel", "Negociación"],
+    "contacto": { "email": "maria.lopez@empresa.com", "ext": "201" }
+  }
+]
