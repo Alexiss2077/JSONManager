@@ -685,7 +685,7 @@ namespace JSONManager
 
         private static int ContarNodos(JsonNode? n) => n switch
         {
-            JsonObject obj => 1 + obj.Count + obj.Values.Sum(v => ContarNodos(v)),
+            JsonObject obj => 1 + obj.Count + obj.Sum(kvp => ContarNodos(kvp.Value)),  // CAMBIOS OBJECT.VALUES NO COMPATIBLE CON NET 8.0 O USAR NEWTON JSON
             JsonArray arr  => 1 + arr.Sum(v => ContarNodos(v)),
             _              => 1
         };
